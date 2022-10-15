@@ -1,0 +1,61 @@
+#titulo { 
+    color: aqua;
+}
+
+p.texto {
+    color: blue;
+}
+
+p.especial {
+    color: mediumaquamarine;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3{
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    color: black;
+}
+
+
+.color {
+    /* border: 5px black inset */
+
+    /*  estilos para el los border
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outsed
+    none
+    hidden
+    */
+
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 1in;
+}
+
+#fondo {
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px;
+    border: solid 1px black;
+    overflow: auto;
+    
+}
